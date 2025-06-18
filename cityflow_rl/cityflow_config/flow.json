@@ -1,0 +1,155 @@
+[
+  {
+    "vehicle": {
+      "length": 5.0,
+      "width": 2.0,
+      "maxPosAcc": 2.0,
+      "maxNegAcc": 4.5,
+      "usualPosAcc": 2.0,
+      "usualNegAcc": 4.5,
+      "minGap": 2.5,
+      "maxSpeed": 11.11,
+      "headwayTime": 1.5
+    },
+    "route": ["road_X1_to_A", "road_A_to_B", "road_B_to_C"],
+    "interval": 5.0,
+    "startTime": 0,
+    "endTime": -1
+  },
+  {
+    "vehicle": {
+      "length": 5.0,
+      "width": 2.0,
+      "maxPosAcc": 2.0,
+      "maxNegAcc": 4.5,
+      "usualPosAcc": 2.0,
+      "usualNegAcc": 4.5,
+      "minGap": 2.5,
+      "maxSpeed": 11.11,
+      "headwayTime": 1.5
+    },
+    "route": ["road_X2_to_A", "road_A_to_B"],
+    "interval": 5.0,
+    "startTime": 0,
+    "endTime": -1
+  },
+  {
+    "vehicle": {
+      "length": 5.0,
+      "width": 2.0,
+      "maxPosAcc": 2.0,
+      "maxNegAcc": 4.5,
+      "usualPosAcc": 2.0,
+      "usualNegAcc": 4.5,
+      "minGap": 2.5,
+      "maxSpeed": 11.11,
+      "headwayTime": 1.5
+    },
+    "route": ["road_X3_to_A", "road_A_to_B", "road_B_to_C", "road_C_to_B"],
+    "interval": 5.0,
+    "startTime": 0,
+    "endTime": -1
+  },
+  {
+    "vehicle": {
+      "length": 5.0,
+      "width": 2.0,
+      "maxPosAcc": 2.0,
+      "maxNegAcc": 4.5,
+      "usualPosAcc": 2.0,
+      "usualNegAcc": 4.5,
+      "minGap": 2.5,
+      "maxSpeed": 11.11,
+      "headwayTime": 1.5
+    },
+    "route": ["road_Y1_to_B", "road_B_to_A"],
+    "interval": 5.0,
+    "startTime": 0,
+    "endTime": -1
+  },
+  {
+    "vehicle": {
+      "length": 5.0,
+      "width": 2.0,
+      "maxPosAcc": 2.0,
+      "maxNegAcc": 4.5,
+      "usualPosAcc": 2.0,
+      "usualNegAcc": 4.5,
+      "minGap": 2.5,
+      "maxSpeed": 11.11,
+      "headwayTime": 1.5
+    },
+    "route": ["road_Y2_to_B", "road_B_to_C"],
+    "interval": 5.0,
+    "startTime": 0,
+    "endTime": -1
+  },
+  {
+    "vehicle": {
+      "length": 5.0,
+      "width": 2.0,
+      "maxPosAcc": 2.0,
+      "maxNegAcc": 4.5,
+      "usualPosAcc": 2.0,
+      "usualNegAcc": 4.5,
+      "minGap": 2.5,
+      "maxSpeed": 11.11,
+      "headwayTime": 1.5
+    },
+    "route": ["road_Z1_to_C", "road_C_to_B", "road_B_to_A"],
+    "interval": 5.0,
+    "startTime": 0,
+    "endTime": -1
+  },
+  {
+    "vehicle": {
+      "length": 5.0,
+      "width": 2.0,
+      "maxPosAcc": 2.0,
+      "maxNegAcc": 4.5,
+      "usualPosAcc": 2.0,
+      "usualNegAcc": 4.5,
+      "minGap": 2.5,
+      "maxSpeed": 11.11,
+      "headwayTime": 1.5
+    },
+    "route": ["road_Z2_to_C", "road_C_to_B"],
+    "interval": 5.0,
+    "startTime": 0,
+    "endTime": -1
+  },
+  {
+    "vehicle": {
+      "length": 5.0,
+      "width": 2.0,
+      "maxPosAcc": 2.0,
+      "maxNegAcc": 4.5,
+      "usualPosAcc": 2.0,
+      "usualNegAcc": 4.5,
+      "minGap": 2.5,
+      "maxSpeed": 11.11,
+      "headwayTime": 1.5
+    },
+    "route": ["road_Z3_to_C", "road_C_to_B", "road_B_to_A"],
+    "interval": 5.0,
+    "startTime": 0,
+    "endTime": -1
+  },
+  {
+    "vehicle": {
+      "length": 5.0,
+      "width": 2.0,
+      "maxPosAcc": 2.0,
+      "maxNegAcc": 4.5,
+      "usualPosAcc": 2.0,
+      "usualNegAcc": 4.5,
+      "minGap": 2.5,
+      "maxSpeed": 11.11,
+      "headwayTime": 1.5
+    },
+    "route": ["road_Y1_to_B", "road_B_to_A", "road_A_to_B"],
+    "interval": 5.0,
+    "startTime": 0,
+    "endTime": -1
+  }
+]

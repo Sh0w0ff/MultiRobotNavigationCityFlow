@@ -1,0 +1,13 @@
+{
+  "interval": 1,
+  "seed": 42,
+  "dir": "/home/sh0w0ff/cityflow_rl/cityflow_config/",
+  "roadnetFile": "roadnet.json",
+  "flowFile": "flow.json",
+  "laneChange": false,
+  "saveReplay": true,
+  "roadnetLogFile": "replay_roadnet.json",
+  "replayLogFile": "replay.txt", 
+  "rlTrafficLight": false
+}
+
