@@ -10,13 +10,13 @@ The Following needs to be installed as a basic requirement to run the project.
 6. stablebaselines3
    and all their dependencies.
 # How to run the simulation and create a model
-1.define your configfile,flow and roadnet in /cityflow_rl/cityflow_config. 
-2.then run train_city_flow.py inside the /cityflow_rl directory.
-3. model wil be created
+1. Define your configfile,flow and roadnet in /cityflow_rl/cityflow_config.
+2. Then run train_city_flow.py inside the /cityflow_rl directory.
+3. Model wil be created
 # Visualizing cityflow
 1. In order to run the replay simulation of the model, go to CityflowInstallDirectory/frontend and run index.html
 2. It will open in a browser. here you can input replay_roadnet.json and replay.txt from cityflow_rl/cityflow_config
-3. run to visualize.
+3. Run to visualize.
 # Running Turtlebot3 Gazebo Environment and link
 1. source ros2 and gazebo properly
    source /opt/ros/humble/setup.bash
