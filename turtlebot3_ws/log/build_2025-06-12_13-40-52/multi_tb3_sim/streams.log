@@ -1,0 +1,24 @@
+[0.756s] Invoking command in '/home/sh0w0ff/turtlebot3_ws/src/multi_tb3_sim': PYTHONPATH=/home/sh0w0ff/turtlebot3_ws/build/multi_tb3_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sh0w0ff/turtlebot3_ws/install/multi_tb3_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_tb3_sim build --build-base /home/sh0w0ff/turtlebot3_ws/build/multi_tb3_sim/build install --record /home/sh0w0ff/turtlebot3_ws/build/multi_tb3_sim/install.log --single-version-externally-managed install_data
+[1.020s] running egg_info
+[1.021s] writing ../../build/multi_tb3_sim/multi_tb3_sim.egg-info/PKG-INFO
+[1.021s] writing dependency_links to ../../build/multi_tb3_sim/multi_tb3_sim.egg-info/dependency_links.txt
+[1.021s] writing entry points to ../../build/multi_tb3_sim/multi_tb3_sim.egg-info/entry_points.txt
+[1.021s] writing requirements to ../../build/multi_tb3_sim/multi_tb3_sim.egg-info/requires.txt
+[1.021s] writing top-level names to ../../build/multi_tb3_sim/multi_tb3_sim.egg-info/top_level.txt
+[1.023s] reading manifest file '../../build/multi_tb3_sim/multi_tb3_sim.egg-info/SOURCES.txt'
+[1.024s] writing manifest file '../../build/multi_tb3_sim/multi_tb3_sim.egg-info/SOURCES.txt'
+[1.025s] running build
+[1.025s] running build_py
+[1.025s] copying multi_tb3_sim/rl_turtlebot_controller.py -> /home/sh0w0ff/turtlebot3_ws/build/multi_tb3_sim/build/lib/multi_tb3_sim
+[1.027s] running install
+[1.027s] running install_lib
+[1.028s] copying /home/sh0w0ff/turtlebot3_ws/build/multi_tb3_sim/build/lib/multi_tb3_sim/rl_turtlebot_controller.py -> /home/sh0w0ff/turtlebot3_ws/install/multi_tb3_sim/lib/python3.10/site-packages/multi_tb3_sim
+[1.029s] byte-compiling /home/sh0w0ff/turtlebot3_ws/install/multi_tb3_sim/lib/python3.10/site-packages/multi_tb3_sim/rl_turtlebot_controller.py to rl_turtlebot_controller.cpython-310.pyc
+[1.031s] running install_data
+[1.031s] running install_egg_info
+[1.033s] removing '/home/sh0w0ff/turtlebot3_ws/install/multi_tb3_sim/lib/python3.10/site-packages/multi_tb3_sim-0.0.0-py3.10.egg-info' (and everything under it)
+[1.034s] Copying ../../build/multi_tb3_sim/multi_tb3_sim.egg-info to /home/sh0w0ff/turtlebot3_ws/install/multi_tb3_sim/lib/python3.10/site-packages/multi_tb3_sim-0.0.0-py3.10.egg-info
+[1.035s] running install_scripts
+[1.055s] Installing rl_cityflow_agent script to /home/sh0w0ff/turtlebot3_ws/install/multi_tb3_sim/lib/multi_tb3_sim
+[1.055s] writing list of installed files to '/home/sh0w0ff/turtlebot3_ws/build/multi_tb3_sim/install.log'
+[1.082s] Invoked command in '/home/sh0w0ff/turtlebot3_ws/src/multi_tb3_sim' returned '0': PYTHONPATH=/home/sh0w0ff/turtlebot3_ws/build/multi_tb3_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sh0w0ff/turtlebot3_ws/install/multi_tb3_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_tb3_sim build --build-base /home/sh0w0ff/turtlebot3_ws/build/multi_tb3_sim/build install --record /home/sh0w0ff/turtlebot3_ws/build/multi_tb3_sim/install.log --single-version-externally-managed install_data

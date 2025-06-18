@@ -1,0 +1,168 @@
+[0.186s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.186s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x780203560ac0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7802035604c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7802035604c0>>)
+[0.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.445s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sh0w0ff/turtlebot3_ws'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/CityFlow) by extensions ['ignore', 'ignore_ament_install']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/CityFlow) by extension 'ignore'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/CityFlow) by extension 'ignore_ament_install'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/CityFlow) by extensions ['colcon_pkg']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/CityFlow) by extension 'colcon_pkg'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/CityFlow) by extensions ['colcon_meta']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/CityFlow) by extension 'colcon_meta'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/CityFlow) by extensions ['ros']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/CityFlow) by extension 'ros'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/CityFlow) by extensions ['cmake', 'python']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/CityFlow) by extension 'cmake'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/CityFlow) by extension 'python'
+[0.465s] DEBUG:colcon.colcon_core.package_identification:Package 'src/CityFlow' with type 'cmake' and name 'cityflow'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_tb3_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_tb3_sim) by extension 'ignore'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_tb3_sim) by extension 'ignore_ament_install'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_tb3_sim) by extensions ['colcon_pkg']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_tb3_sim) by extension 'colcon_pkg'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_tb3_sim) by extensions ['colcon_meta']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_tb3_sim) by extension 'colcon_meta'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_tb3_sim) by extensions ['ros']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_tb3_sim) by extension 'ros'
+[0.469s] DEBUG:colcon.colcon_core.package_identification:Package 'src/multi_tb3_sim' with type 'ros.ament_python' and name 'multi_tb3_sim'
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.511s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 412 installed packages in /opt/ros/humble
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'cityflow' build argument 'cmake_args' from command line to 'None'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'cityflow' build argument 'cmake_target' from command line to 'None'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'cityflow' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'cityflow' build argument 'cmake_clean_cache' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'cityflow' build argument 'cmake_clean_first' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'cityflow' build argument 'cmake_force_configure' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'cityflow' build argument 'ament_cmake_args' from command line to 'None'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'cityflow' build argument 'catkin_cmake_args' from command line to 'None'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'cityflow' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.570s] DEBUG:colcon.colcon_core.verb:Building package 'cityflow' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sh0w0ff/turtlebot3_ws/build/cityflow', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sh0w0ff/turtlebot3_ws/install/cityflow', 'merge_install': False, 'path': '/home/sh0w0ff/turtlebot3_ws/src/CityFlow', 'symlink_install': False, 'test_result_base': None}
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'multi_tb3_sim' build argument 'cmake_args' from command line to 'None'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'multi_tb3_sim' build argument 'cmake_target' from command line to 'None'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'multi_tb3_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'multi_tb3_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'multi_tb3_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'multi_tb3_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'multi_tb3_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'multi_tb3_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'multi_tb3_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.571s] DEBUG:colcon.colcon_core.verb:Building package 'multi_tb3_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sh0w0ff/turtlebot3_ws/build/multi_tb3_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sh0w0ff/turtlebot3_ws/install/multi_tb3_sim', 'merge_install': False, 'path': '/home/sh0w0ff/turtlebot3_ws/src/multi_tb3_sim', 'symlink_install': False, 'test_result_base': None}
+[0.571s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.572s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.572s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sh0w0ff/turtlebot3_ws/src/CityFlow'
+[0.577s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.577s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.577s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.581s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sh0w0ff/turtlebot3_ws/src/multi_tb3_sim' with build type 'ament_python'
+[0.581s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_tb3_sim', 'ament_prefix_path')
+[0.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sh0w0ff/turtlebot3_ws/install/multi_tb3_sim/share/multi_tb3_sim/hook/ament_prefix_path.ps1'
+[0.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sh0w0ff/turtlebot3_ws/install/multi_tb3_sim/share/multi_tb3_sim/hook/ament_prefix_path.dsv'
+[0.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sh0w0ff/turtlebot3_ws/install/multi_tb3_sim/share/multi_tb3_sim/hook/ament_prefix_path.sh'
+[0.583s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.583s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sh0w0ff/turtlebot3_ws/build/cityflow': /usr/bin/cmake --build /home/sh0w0ff/turtlebot3_ws/build/cityflow -- -j12 -l12
+[0.903s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sh0w0ff/turtlebot3_ws/src/multi_tb3_sim'
+[0.903s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.904s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sh0w0ff/turtlebot3_ws/build/cityflow' returned '0': /usr/bin/cmake --build /home/sh0w0ff/turtlebot3_ws/build/cityflow -- -j12 -l12
+[0.909s] WARNING:colcon.colcon_cmake.task.cmake.build:Could not run installation step for package 'cityflow' because it has no 'install' target
+[0.909s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cityflow)
+[0.915s] Level 1:colcon.colcon_core.environment:checking '/home/sh0w0ff/turtlebot3_ws/install/cityflow' for CMake module files
+[0.915s] Level 1:colcon.colcon_core.environment:checking '/home/sh0w0ff/turtlebot3_ws/install/cityflow' for CMake config files
+[0.915s] Level 1:colcon.colcon_core.environment:checking '/home/sh0w0ff/turtlebot3_ws/install/cityflow/bin'
+[0.915s] Level 1:colcon.colcon_core.environment:checking '/home/sh0w0ff/turtlebot3_ws/install/cityflow/lib/pkgconfig/cityflow.pc'
+[0.916s] Level 1:colcon.colcon_core.environment:checking '/home/sh0w0ff/turtlebot3_ws/install/cityflow/lib/python3.10/site-packages'
+[0.916s] Level 1:colcon.colcon_core.environment:checking '/home/sh0w0ff/turtlebot3_ws/install/cityflow/bin'
+[0.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/sh0w0ff/turtlebot3_ws/install/cityflow/share/cityflow/package.ps1'
+[0.917s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sh0w0ff/turtlebot3_ws/install/cityflow/share/cityflow/package.dsv'
+[0.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/sh0w0ff/turtlebot3_ws/install/cityflow/share/cityflow/package.sh'
+[0.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/sh0w0ff/turtlebot3_ws/install/cityflow/share/cityflow/package.bash'
+[0.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/sh0w0ff/turtlebot3_ws/install/cityflow/share/cityflow/package.zsh'
+[0.921s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sh0w0ff/turtlebot3_ws/install/cityflow/share/colcon-core/packages/cityflow)
+[1.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sh0w0ff/turtlebot3_ws/src/multi_tb3_sim': PYTHONPATH=/home/sh0w0ff/turtlebot3_ws/build/multi_tb3_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sh0w0ff/turtlebot3_ws/install/multi_tb3_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_tb3_sim build --build-base /home/sh0w0ff/turtlebot3_ws/build/multi_tb3_sim/build install --record /home/sh0w0ff/turtlebot3_ws/build/multi_tb3_sim/install.log --single-version-externally-managed install_data
+[1.663s] Level 1:colcon.colcon_core.environment:checking '/home/sh0w0ff/turtlebot3_ws/install/multi_tb3_sim' for CMake module files
+[1.663s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sh0w0ff/turtlebot3_ws/src/multi_tb3_sim' returned '0': PYTHONPATH=/home/sh0w0ff/turtlebot3_ws/build/multi_tb3_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sh0w0ff/turtlebot3_ws/install/multi_tb3_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_tb3_sim build --build-base /home/sh0w0ff/turtlebot3_ws/build/multi_tb3_sim/build install --record /home/sh0w0ff/turtlebot3_ws/build/multi_tb3_sim/install.log --single-version-externally-managed install_data
+[1.663s] Level 1:colcon.colcon_core.environment:checking '/home/sh0w0ff/turtlebot3_ws/install/multi_tb3_sim' for CMake config files
+[1.664s] Level 1:colcon.colcon_core.environment:checking '/home/sh0w0ff/turtlebot3_ws/install/multi_tb3_sim/lib'
+[1.664s] Level 1:colcon.colcon_core.environment:checking '/home/sh0w0ff/turtlebot3_ws/install/multi_tb3_sim/bin'
+[1.664s] Level 1:colcon.colcon_core.environment:checking '/home/sh0w0ff/turtlebot3_ws/install/multi_tb3_sim/lib/pkgconfig/multi_tb3_sim.pc'
+[1.664s] Level 1:colcon.colcon_core.environment:checking '/home/sh0w0ff/turtlebot3_ws/install/multi_tb3_sim/lib/python3.10/site-packages'
+[1.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_tb3_sim', 'pythonpath')
+[1.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sh0w0ff/turtlebot3_ws/install/multi_tb3_sim/share/multi_tb3_sim/hook/pythonpath.ps1'
+[1.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sh0w0ff/turtlebot3_ws/install/multi_tb3_sim/share/multi_tb3_sim/hook/pythonpath.dsv'
+[1.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sh0w0ff/turtlebot3_ws/install/multi_tb3_sim/share/multi_tb3_sim/hook/pythonpath.sh'
+[1.666s] Level 1:colcon.colcon_core.environment:checking '/home/sh0w0ff/turtlebot3_ws/install/multi_tb3_sim/bin'
+[1.666s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multi_tb3_sim)
+[1.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/sh0w0ff/turtlebot3_ws/install/multi_tb3_sim/share/multi_tb3_sim/package.ps1'
+[1.667s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sh0w0ff/turtlebot3_ws/install/multi_tb3_sim/share/multi_tb3_sim/package.dsv'
+[1.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/sh0w0ff/turtlebot3_ws/install/multi_tb3_sim/share/multi_tb3_sim/package.sh'
+[1.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/sh0w0ff/turtlebot3_ws/install/multi_tb3_sim/share/multi_tb3_sim/package.bash'
+[1.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/sh0w0ff/turtlebot3_ws/install/multi_tb3_sim/share/multi_tb3_sim/package.zsh'
+[1.669s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sh0w0ff/turtlebot3_ws/install/multi_tb3_sim/share/colcon-core/packages/multi_tb3_sim)
+[1.669s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.669s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.669s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.669s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.675s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.675s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.675s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.702s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.702s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sh0w0ff/turtlebot3_ws/install/local_setup.ps1'
+[1.703s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sh0w0ff/turtlebot3_ws/install/_local_setup_util_ps1.py'
+[1.705s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sh0w0ff/turtlebot3_ws/install/setup.ps1'
+[1.707s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sh0w0ff/turtlebot3_ws/install/local_setup.sh'
+[1.708s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sh0w0ff/turtlebot3_ws/install/_local_setup_util_sh.py'
+[1.708s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sh0w0ff/turtlebot3_ws/install/setup.sh'
+[1.709s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sh0w0ff/turtlebot3_ws/install/local_setup.bash'
+[1.710s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sh0w0ff/turtlebot3_ws/install/setup.bash'
+[1.711s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sh0w0ff/turtlebot3_ws/install/local_setup.zsh'
+[1.712s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sh0w0ff/turtlebot3_ws/install/setup.zsh'
