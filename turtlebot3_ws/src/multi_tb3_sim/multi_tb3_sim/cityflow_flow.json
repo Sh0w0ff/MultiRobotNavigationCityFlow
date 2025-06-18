@@ -1,0 +1,15 @@
+[
+  {
+    "vehicle": [
+      {
+        "startTime": 0,
+        "endTime": -1,
+        "interval": 5.0,
+        "route": [
+          "road_0_1_0",
+          "road_0_1_1"
+        ]
+      }
+    ]
+  }
+]

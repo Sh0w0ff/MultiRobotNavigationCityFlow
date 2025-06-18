@@ -1,0 +1,3 @@
+[console_scripts]
+rl_cityflow_agent = multi_tb3_sim.rl_cityflow_node:main
+
